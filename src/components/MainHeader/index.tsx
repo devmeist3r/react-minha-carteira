@@ -16,7 +16,6 @@ const MainHeader: React.FC = () => {
   return (
     <Styled.Container>
       <Toogle />
-      <h1>Toogle</h1>
       {console.log(theme)}
 
       <Styled.Profile>
