@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Grid = styled.div`
   display: grid;
@@ -20,4 +20,4 @@ export const Grid = styled.div`
       'MH'
       'CT';
   }
-`;
+`

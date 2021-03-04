@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 import {
   MdDashboard,
   MdArrowDownward,
   MdArrowUpward,
   MdExitToApp,
-} from 'react-icons/md';
+} from 'react-icons/md'
 
-import * as Styled from './styles';
+import * as Styled from './styles'
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.svg'
 
 const Aside: React.FC = () => {
   return (
@@ -37,7 +37,7 @@ const Aside: React.FC = () => {
         </Styled.MenuItemLink>
       </Styled.MenuContainer>
     </Styled.Container>
-  );
-};
+  )
+}
 
-export default Aside;
+export default Aside

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import * as Styled from './styles';
+import React, { useState } from 'react'
+import * as Styled from './styles'
 
 const Toogle: React.FC = () => {
-  const [online, setOnline] = useState<boolean>(false);
+  const [online, setOnline] = useState<boolean>(false)
   return (
     <Styled.Container>
       <Styled.ToggleLabel>Light</Styled.ToggleLabel>
@@ -14,7 +14,7 @@ const Toogle: React.FC = () => {
       />
       <Styled.ToggleLabel>Dark</Styled.ToggleLabel>
     </Styled.Container>
-  );
-};
+  )
+}
 
-export default Toogle;
+export default Toogle

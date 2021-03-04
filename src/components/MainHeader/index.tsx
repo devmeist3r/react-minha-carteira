@@ -1,17 +1,17 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react'
 
-import * as Styled from './styles';
+import * as Styled from './styles'
 
-import emojis from '../../utils/emojis';
-import Toogle from '../../components/Toogle';
+import emojis from '../../utils/emojis'
+import Toogle from '../Toogle'
 
 const MainHeader: React.FC = () => {
-  const [theme, setTheme] = useState<boolean>(false);
+  const [theme, setTheme] = useState<boolean>(false)
 
   const emoji = useMemo(() => {
-    const indice = Math.floor(Math.random() * emojis.length);
-    return emojis[indice];
-  }, []);
+    const indice = Math.floor(Math.random() * emojis.length)
+    return emojis[indice]
+  }, [])
 
   return (
     <Styled.Container>
@@ -24,7 +24,7 @@ const MainHeader: React.FC = () => {
         <Styled.UserName>Lucas Inocêncio</Styled.UserName>
       </Styled.Profile>
     </Styled.Container>
-  );
-};
+  )
+}
 
-export default MainHeader;
+export default MainHeader
